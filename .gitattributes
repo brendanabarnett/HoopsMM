@@ -2,7 +2,6 @@
 data/sample_game_embeddings filter=lfs diff=lfs merge=lfs -text
 data/team_play_by_play.csv filter=lfs diff=lfs merge=lfs -text
 data/*.csv filter=lfs diff=lfs merge=lfs -text
-data/.csv filter=lfs diff=lfs merge=lfs -text
 data/embeddings_sample.csv filter=lfs diff=lfs merge=lfs -text
 data/tabular_core.csv filter=lfs diff=lfs merge=lfs -text
 data/text_play_by_play_team.csv filter=lfs diff=lfs merge=lfs -text
