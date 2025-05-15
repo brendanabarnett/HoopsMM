@@ -1,3 +1,4 @@
 .csv filter=lfs diff=lfs merge=lfs -text
 data/sample_game_embeddings filter=lfs diff=lfs merge=lfs -text
 data/team_play_by_play.csv filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
