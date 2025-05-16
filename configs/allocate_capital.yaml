@@ -1,0 +1,16 @@
+data:
+  path: data/fused.csv
+  pred_col: pred          # 0/1 prediction
+  prob_col: prob          # model win‑prob
+  home_fav_col: home_fav
+  fav_odds_col: favorite_avg_odds
+  dog_odds_col: underdog_avg_odds
+
+stake:
+  strategy: kelly         # or flat
+  flat_size: 100.0
+  bankroll: 1000.0
+
+simulation:
+  num_runs: 100000
+  plot_path: output/mc_hist.png

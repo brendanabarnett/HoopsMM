@@ -1,0 +1,12 @@
+data:
+  path: data/ranking_top.csv
+
+model:
+  params: {}          # override defaults if desired
+
+evaluation:
+  buckets: ["1", "2", "3-4", "5-8"]
+  k_values: [1, 2, 3]
+
+training:
+  output_dir: output/rank_teams

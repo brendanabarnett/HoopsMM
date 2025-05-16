@@ -1,0 +1,29 @@
+data:
+  path: data/fused.csv
+  features:
+    - wins
+    - avg_pts
+    - avg_pts_opp
+    - avg_margin
+    - avg_off_eff
+    - avg_def_eff
+    - win_pct
+    - seed_guess
+  target: home_win
+
+split:
+  test_frac: 0.2
+
+model:
+  params:
+    objective: binary:logistic
+    eval_metric: logloss
+    n_estimators: 100
+    max_depth: 4
+    learning_rate: 0.05
+    subsample: 0.6
+    colsample_bytree: 0.6
+    reg_lambda: 0.5
+
+training:
+  output_dir: output/forecast_win
