@@ -89,3 +89,35 @@ training:
 
 ## 5 · License
 Code released under **MIT License**; dataset under **CC BY 4.0**.
+
+
+---
+
+## 6 · Future Directions
+
+Beyond the three core tasks, HoopsMM is designed to support additional research directions:
+
+- **In-Game Win Probability**  
+  Predict game outcomes from partial play-by-play logs, enabling real-time momentum tracking and coaching insights.
+
+- **Odds Forecasting**  
+  Model market-implied probabilities across time to identify mispriced lines and potential arbitrage opportunities.
+
+- **Spatial Modeling**  
+  Analyze shot-coordinate sequences to understand offensive tendencies, defensive breakdowns, and court coverage strategies.
+
+- **Real-Time Commentary Generation**  
+  Fine-tune language models to produce momentum-aware, coherent play-by-play narratives conditioned on live event streams.
+
+- **Highlight Detection**  
+  Automatically identify and rank key plays for content summarization and fan engagement.
+
+- **Momentum Change-Point Detection**  
+  Detect statistically significant shifts in momentum, akin to regime shifts in finance or anomaly detection in IoT systems.
+
+- **Lightweight Edge Deployment**  
+  Distill large multimodal models into compact, efficient architectures suitable for mobile apps or in-arena edge devices.
+
+These directions are grounded in the dataset’s multimodal structure and time-aware design; there are ample opportunities for applied ML, NLP, and real-time systems research.
+
+Excited to see how this grows! Feel free to reach out at brendan.barnett@uconn.edu
