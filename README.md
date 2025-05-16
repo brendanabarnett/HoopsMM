@@ -1,6 +1,6 @@
 # HoopsMM — NeurIPS 2025 Codebase  
-Benchmarks + Baselines for NCAA Division I Men’s Basketball  
-> **Tasks**:  
+Multimodal Benchmarks + Baselines for NCAA Division I Men’s Basketball  
+> **Core Tasks**:  
 > 1. Pre‑game win‑probability forecasting (`forecast_win/`)  
 > 2. Risk‑aware capital allocation (`allocate_capital/`)  
 > 3. Season‑long team ranking (`rank_teams/`)
