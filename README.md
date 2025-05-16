@@ -56,18 +56,7 @@ Each task exposes:
 
 ---
 
-## 3 · Data expectations
-
-| Path | Needed columns |
-|------|----------------|
-| `Data/merged.csv` | model features, `home_win`, betting‑odds columns |
-| `data/ranking_top.csv` | season‑level engineered features, `rank_group`, `season` |
-
-Adjust the `data.path` field in the YAML if your files live elsewhere.
-
----
-
-## 4 · Config anatomy (YAML)
+## 3 · Config anatomy (YAML)
 
 ```yaml
 data:
@@ -87,7 +76,7 @@ training:
 
 ---
 
-## 5 · Reproducibility
+## 4 · Reproducibility
 
 * Deterministic seeds set for all sklearn models.  
 * All hyper‑parameters logged through the YAML configs.  
@@ -95,5 +84,5 @@ training:
 
 ---
 
-## 6 · License
-Code released under **MIT License**; dataset under **CC BY 4.0** as noted in the repo.
+## 5 · License
+Code released under **MIT License**; dataset under **CC BY 4.0**.
